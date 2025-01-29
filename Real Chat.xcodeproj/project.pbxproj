@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127D04A56467B26AA9A1A87B /* Pods_Real_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D41E387A3C3CFC369F3D5B5 /* Pods_Real_Chat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D431C9D32D47B39B00D96DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D431C9B42D47B39900D96DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D431C9BB2D47B39900D96DE7;
+			remoteInfo = "Real Chat";
+		};
+		D431C9DD2D47B39C00D96DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D431C9B42D47B39900D96DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D431C9BB2D47B39900D96DE7;
+			remoteInfo = "Real Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0040C65355237CCF83F7E939 /* Pods-Real Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Chat.release.xcconfig"; path = "Target Support Files/Pods-Real Chat/Pods-Real Chat.release.xcconfig"; sourceTree = "<group>"; };
+		1D41E387A3C3CFC369F3D5B5 /* Pods_Real_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Real_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF35F77A553F0D884C54AA3 /* Pods-Real Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Real Chat.debug.xcconfig"; path = "Target Support Files/Pods-Real Chat/Pods-Real Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		D431C9BC2D47B39900D96DE7 /* Real Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D431C9D22D47B39B00D96DE7 /* Real ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D431C9DC2D47B39C00D96DE7 /* Real ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Real ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D431C9E42D47B39C00D96DE7 /* Exceptions for "Real Chat" folder in "Real Chat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D431C9BB2D47B39900D96DE7 /* Real Chat */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D431C9BE2D47B39900D96DE7 /* Real Chat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D431C9E42D47B39C00D96DE7 /* Exceptions for "Real Chat" folder in "Real Chat" target */,
+			);
+			path = "Real Chat";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D431C9B92D47B39900D96DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127D04A56467B26AA9A1A87B /* Pods_Real_Chat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431C9CF2D47B39B00D96DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431C9D92D47B39C00D96DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32061A49E8A531321DAAF986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D41E387A3C3CFC369F3D5B5 /* Pods_Real_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B40E4E8C36AD9EAA8272D77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF35F77A553F0D884C54AA3 /* Pods-Real Chat.debug.xcconfig */,
+				0040C65355237CCF83F7E939 /* Pods-Real Chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D431C9B32D47B39900D96DE7 = {
+			isa = PBXGroup;
+			children = (
+				D431C9BE2D47B39900D96DE7 /* Real Chat */,
+				D431C9BD2D47B39900D96DE7 /* Products */,
+				7B40E4E8C36AD9EAA8272D77 /* Pods */,
+				32061A49E8A531321DAAF986 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D431C9BD2D47B39900D96DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D431C9BC2D47B39900D96DE7 /* Real Chat.app */,
+				D431C9D22D47B39B00D96DE7 /* Real ChatTests.xctest */,
+				D431C9DC2D47B39C00D96DE7 /* Real ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D431C9BB2D47B39900D96DE7 /* Real Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D431C9E52D47B39C00D96DE7 /* Build configuration list for PBXNativeTarget "Real Chat" */;
+			buildPhases = (
+				FF7BEBC36B964787620B27BC /* [CP] Check Pods Manifest.lock */,
+				D431C9B82D47B39900D96DE7 /* Sources */,
+				D431C9B92D47B39900D96DE7 /* Frameworks */,
+				D431C9BA2D47B39900D96DE7 /* Resources */,
+				CE0F58F9F9CB218FB8EEC8F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D431C9BE2D47B39900D96DE7 /* Real Chat */,
+			);
+			name = "Real Chat";
+			productName = "Real Chat";
+			productReference = D431C9BC2D47B39900D96DE7 /* Real Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D431C9D12D47B39B00D96DE7 /* Real ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D431C9EA2D47B39C00D96DE7 /* Build configuration list for PBXNativeTarget "Real ChatTests" */;
+			buildPhases = (
+				D431C9CE2D47B39B00D96DE7 /* Sources */,
+				D431C9CF2D47B39B00D96DE7 /* Frameworks */,
+				D431C9D02D47B39B00D96DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D431C9D42D47B39B00D96DE7 /* PBXTargetDependency */,
+			);
+			name = "Real ChatTests";
+			productName = "Real ChatTests";
+			productReference = D431C9D22D47B39B00D96DE7 /* Real ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D431C9DB2D47B39C00D96DE7 /* Real ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D431C9ED2D47B39C00D96DE7 /* Build configuration list for PBXNativeTarget "Real ChatUITests" */;
+			buildPhases = (
+				D431C9D82D47B39C00D96DE7 /* Sources */,
+				D431C9D92D47B39C00D96DE7 /* Frameworks */,
+				D431C9DA2D47B39C00D96DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D431C9DE2D47B39C00D96DE7 /* PBXTargetDependency */,
+			);
+			name = "Real ChatUITests";
+			productName = "Real ChatUITests";
+			productReference = D431C9DC2D47B39C00D96DE7 /* Real ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D431C9B42D47B39900D96DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D431C9BB2D47B39900D96DE7 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D431C9D12D47B39B00D96DE7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D431C9BB2D47B39900D96DE7;
+					};
+					D431C9DB2D47B39C00D96DE7 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D431C9BB2D47B39900D96DE7;
+					};
+				};
+			};
+			buildConfigurationList = D431C9B72D47B39900D96DE7 /* Build configuration list for PBXProject "Real Chat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D431C9B32D47B39900D96DE7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D431C9BD2D47B39900D96DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D431C9BB2D47B39900D96DE7 /* Real Chat */,
+				D431C9D12D47B39B00D96DE7 /* Real ChatTests */,
+				D431C9DB2D47B39C00D96DE7 /* Real ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D431C9BA2D47B39900D96DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431C9D02D47B39B00D96DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431C9DA2D47B39C00D96DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE0F58F9F9CB218FB8EEC8F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real Chat/Pods-Real Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Real Chat/Pods-Real Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Real Chat/Pods-Real Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7BEBC36B964787620B27BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Real Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D431C9B82D47B39900D96DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431C9CE2D47B39B00D96DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D431C9D82D47B39C00D96DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D431C9D42D47B39B00D96DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D431C9BB2D47B39900D96DE7 /* Real Chat */;
+			targetProxy = D431C9D32D47B39B00D96DE7 /* PBXContainerItemProxy */;
+		};
+		D431C9DE2D47B39C00D96DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D431C9BB2D47B39900D96DE7 /* Real Chat */;
+			targetProxy = D431C9DD2D47B39C00D96DE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D431C9E62D47B39C00D96DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF35F77A553F0D884C54AA3 /* Pods-Real Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real Chat/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sariyya.Real-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D431C9E72D47B39C00D96DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0040C65355237CCF83F7E939 /* Pods-Real Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Real Chat/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sariyya.Real-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D431C9E82D47B39C00D96DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D431C9E92D47B39C00D96DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D431C9EB2D47B39C00D96DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sariyya.Real-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Real Chat";
+			};
+			name = Debug;
+		};
+		D431C9EC2D47B39C00D96DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sariyya.Real-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Real Chat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Real Chat";
+			};
+			name = Release;
+		};
+		D431C9EE2D47B39C00D96DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sariyya.Real-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Real Chat";
+			};
+			name = Debug;
+		};
+		D431C9EF2D47B39C00D96DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sariyya.Real-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Real Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D431C9B72D47B39900D96DE7 /* Build configuration list for PBXProject "Real Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D431C9E82D47B39C00D96DE7 /* Debug */,
+				D431C9E92D47B39C00D96DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D431C9E52D47B39C00D96DE7 /* Build configuration list for PBXNativeTarget "Real Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D431C9E62D47B39C00D96DE7 /* Debug */,
+				D431C9E72D47B39C00D96DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D431C9EA2D47B39C00D96DE7 /* Build configuration list for PBXNativeTarget "Real ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D431C9EB2D47B39C00D96DE7 /* Debug */,
+				D431C9EC2D47B39C00D96DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D431C9ED2D47B39C00D96DE7 /* Build configuration list for PBXNativeTarget "Real ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D431C9EE2D47B39C00D96DE7 /* Debug */,
+				D431C9EF2D47B39C00D96DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D431C9B42D47B39900D96DE7 /* Project object */;
+}
